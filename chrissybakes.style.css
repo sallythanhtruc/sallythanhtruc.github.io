@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+}
+
+header {
+  margin: 0px;
+  padding: 10px;
+  /*  */
+  color: #efb4cf;
+  text-align: center;
+  justify-content: center;
+}
+/* First part of the header with Font 1 */
+.Merriweather {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px whitesmoke;
+  margin: 0;
+  margin-top: 20px;
+}
+/* Second part of the header with Font 2 */
+.PinyonScript {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;  
+  font-size: 2rem;
+  color: rgb(86, 85, 85);
+  letter-spacing: 0.42em;
+  margin: bottom;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative; /* Allows you to use the "top" property */
+  top: -65px; /* positioning text with above text */
+  ;
+}
+
+
+
+
+/* target the direct descendent/child nav-ul of the body tag using id tag */
+#nav-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+  color: white; 
+  /* to change the elements layout from below to the side using flexbox  */
+  display: flex;
+  height:10vh;
+  align-items: right;
+  justify-content: flex-end;
+  position: relative; top: -145px;
+}
+
+/* to space out the nav elements */
+#nav-ul > li {
+  padding: 20px;
+  margin: 30px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  columns: white;
+  padding:20px;
+  border-style: hidden;
+  border-radius: 50%;
+}
+  a { 
+      /* font of the nav elements */
+      color: rgb(86, 85, 85);
+      font-size: 20px;
+      text-decoration: none;
+      font-family: "baskerville";
+      }
+
+      i {
+          font-size: 24px;
+          color: #333;
+        }
+        
+      
+h3 {
+  text-align: center;
+  color: #efb4cf;
+  font-style: italic;
+  margin: -3%;
+}
+
+.filterby {
+  color:rgb(86, 85, 85);
+  cursor: pointer;
+}
+
+#main-content { 
+  padding: 32px;
+  margin: 50px;
+  gap: 100px;
+}
+
+h4 {
+  font-size: 20px;
+  font-style: normal;
+  color: rgb(86, 85, 85);
+}
+
+.cakeimg {
+  border-radius: 10%;
+  border-style: solid;
+  border-color: white;
+}
+
+
+.custom-btn {
+  padding: 0 20px;
+height: 40px; /* Set height of the button */
+background-color: #333; /* Dark grey background */
+color: white;
+border: none;
+border-radius: 8px;
+font-size: 16px;
+cursor: pointer;
+}
+
+.custom-btn:hover {
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  padding: 16px;
+  background-color: hsla(201, 7%, 63%, 0.884);
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
